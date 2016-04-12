@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="dJQ-KQ-Eew">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch-->
+        <scene sceneID="A94-b4-qo3">
+            <objects>
+                <viewController storyboardIdentifier="toLaunch" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dJQ-KQ-Eew" userLabel="Launch" customClass="SURLaunchViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zil-wK-Ugp"/>
+                        <viewControllerLayoutGuide type="bottom" id="fQH-tB-Czo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sIk-5E-b5d">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0a2-n5-0Eo" userLabel="BG View">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch" translatesAutoresizingMaskIntoConstraints="NO" id="EDK-Ik-vtR">
+                                        <rect key="frame" x="182" y="260" width="236" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="Udb-6n-sac"/>
+                                            <constraint firstAttribute="width" constant="236" id="qqn-Sf-6eO"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="EDK-Ik-vtR" firstAttribute="centerY" secondItem="0a2-n5-0Eo" secondAttribute="centerY" id="Iua-Ph-2w7"/>
+                                    <constraint firstItem="EDK-Ik-vtR" firstAttribute="centerX" secondItem="0a2-n5-0Eo" secondAttribute="centerX" id="inA-QV-8H1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0a2-n5-0Eo" firstAttribute="leading" secondItem="sIk-5E-b5d" secondAttribute="leadingMargin" constant="-20" id="5Uh-92-GQ2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0a2-n5-0Eo" secondAttribute="trailing" constant="-20" id="ac3-Js-Tj1"/>
+                            <constraint firstItem="0a2-n5-0Eo" firstAttribute="top" secondItem="sIk-5E-b5d" secondAttribute="topMargin" id="cVZ-ls-yQd"/>
+                            <constraint firstItem="fQH-tB-Czo" firstAttribute="top" secondItem="0a2-n5-0Eo" secondAttribute="bottom" id="vjx-LJ-gu0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HMR-wL-RwW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="300" y="441"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Launch" width="250" height="80"/>
+    </resources>
+</document>

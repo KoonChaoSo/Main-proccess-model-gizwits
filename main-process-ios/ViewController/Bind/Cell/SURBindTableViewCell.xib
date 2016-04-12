@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="selectedDeviceType" rowHeight="75" id="k1a-Cp-ida" customClass="SURBindTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k1a-Cp-ida" id="aZA-D3-0yk">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a84-pS-qp1">
+                        <rect key="frame" x="8" y="8" width="304" height="103.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search_device_heater.png" translatesAutoresizingMaskIntoConstraints="NO" id="p1q-8F-4Ix">
+                                <rect key="frame" x="0.0" y="0.0" width="304" height="103"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqJ-rI-ygx">
+                                <rect key="frame" x="96.5" y="0.0" width="176" height="102.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hqJ-rI-ygx" secondAttribute="height" multiplier="56:51" constant="63.45098039215685" id="U5J-aO-006"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="p1q-8F-4Ix" firstAttribute="leading" secondItem="a84-pS-qp1" secondAttribute="leading" id="5HM-8h-oCe"/>
+                            <constraint firstItem="p1q-8F-4Ix" firstAttribute="top" secondItem="a84-pS-qp1" secondAttribute="top" id="EW5-N8-NBm"/>
+                            <constraint firstItem="hqJ-rI-ygx" firstAttribute="centerY" secondItem="a84-pS-qp1" secondAttribute="centerY" id="F94-BU-3Zn"/>
+                            <constraint firstAttribute="bottom" secondItem="p1q-8F-4Ix" secondAttribute="bottom" id="Lto-tq-5aO"/>
+                            <constraint firstAttribute="bottom" secondItem="hqJ-rI-ygx" secondAttribute="bottom" constant="1" id="P4Y-cY-Rve"/>
+                            <constraint firstAttribute="trailing" secondItem="p1q-8F-4Ix" secondAttribute="trailing" id="SRz-JS-U4E"/>
+                            <constraint firstItem="hqJ-rI-ygx" firstAttribute="centerX" secondItem="a84-pS-qp1" secondAttribute="centerX" constant="32.5" id="lLH-c9-0Nk"/>
+                            <constraint firstItem="hqJ-rI-ygx" firstAttribute="top" secondItem="a84-pS-qp1" secondAttribute="top" id="pXP-AC-Y9P"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="a84-pS-qp1" firstAttribute="leading" secondItem="aZA-D3-0yk" secondAttribute="leadingMargin" id="2k8-1T-AGz"/>
+                    <constraint firstItem="a84-pS-qp1" firstAttribute="top" secondItem="aZA-D3-0yk" secondAttribute="topMargin" id="FU6-Re-pHt"/>
+                    <constraint firstItem="a84-pS-qp1" firstAttribute="trailing" secondItem="aZA-D3-0yk" secondAttribute="trailingMargin" id="Kp9-J2-6Sw"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="a84-pS-qp1" secondAttribute="bottom" id="UTH-FL-dur"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellImageView" destination="p1q-8F-4Ix" id="UqV-rL-mFw"/>
+                <outlet property="cellLabel" destination="hqJ-rI-ygx" id="vhd-bf-cG6"/>
+            </connections>
+            <point key="canvasLocation" x="240" y="317"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="search_device_heater.png" width="580" height="174"/>
+    </resources>
+</document>

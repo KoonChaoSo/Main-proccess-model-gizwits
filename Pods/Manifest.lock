@@ -1,0 +1,62 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - AMSlideMenu (1.5.4)
+  - EChart (0.1.1)
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - iOS-Slide-Menu (1.5)
+  - JSONModel (1.2.0)
+  - libqrencode (3.4.2)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.0.8)
+  - OpenSSL-Universal (1.0.1.16)
+  - Reachability (3.2)
+  - SWTableViewCell (0.3.7)
+  - TNCheckBoxGroup (0.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.4)
+  - AMSlideMenu (~> 1.5.4)
+  - EChart (~> 0.1.1)
+  - FMDB (~> 2.5)
+  - iOS-Slide-Menu (~> 1.5)
+  - JSONModel (~> 1.2.0)
+  - libqrencode (~> 3.4.2)
+  - MBProgressHUD (~> 0.9.2)
+  - MJRefresh (~> 3.0.8)
+  - OpenSSL-Universal (= 1.0.1.16)
+  - Reachability (~> 3.2)
+  - SWTableViewCell (~> 0.3.7)
+  - TNCheckBoxGroup (~> 0.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  AMSlideMenu: 8571937703d2b8e187b22c1416be4cafc3532a11
+  EChart: 2c23edc06e72c396d283732c2338711c33d7644d
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  iOS-Slide-Menu: 40b0cbd8916c42afc755f0869793cd09e7a32102
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  libqrencode: 43dc34b89af83ea4b07c409cd8e09c87aa3a1c9f
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: fafde8f18f4afd66b434331a9beb67a6c0264056
+  OpenSSL-Universal: 85ef63bf81d0741b03c8719cd29685c37c59518d
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+  TNCheckBoxGroup: a68af5c69d292dcdf963bfab9496ed8e3f73689f
+
+COCOAPODS: 0.39.0
